@@ -7,7 +7,7 @@ Prepare interview for Python and Django
 ### Zen of Python
 
 - Beautiful is better than ugly.
-
+  - 美麗優於醜陋，明講好過暗諭。
 - Explicit is better than implicit.
 
 - Simple is better than complex.
