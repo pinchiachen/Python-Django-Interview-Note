@@ -52,7 +52,7 @@ Prepare interview for Python and Django
 
 - ```if __name__ == '__main__'``` 的意思是：當 .py 文件被直接運行時，```if __name__ == '__main__'``` 之下的程式碼將被運行；當 .py 文件以模組形式被導入時，```if __name__ == '__main__'``` 之下的程式碼不被運行。
 
-- [See More (簡體網站)](https://blog.csdn.net/yjk13703623757/article/details/77918633)
+- [See More](https://blog.csdn.net/yjk13703623757/article/details/77918633)
 
 - [```if __name__ == '__main__' ``` 實例](https://blog.castman.net/%E6%95%99%E5%AD%B8/2018/01/27/python-name-main.html)
 
