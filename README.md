@@ -13,3 +13,5 @@ Prepare interview for Python and Django
 - [PEP8 Python 編碼規範手冊](https://cflin.com/wordpress/603/pep8-python%E7%B7%A8%E7%A2%BC%E8%A6%8F%E7%AF%84%E6%89%8B%E5%86%8A)
 
 ### PyLint
+
+- 以 PEP8 為依據的 Python 代碼風格檢查工具
