@@ -50,7 +50,7 @@ Prepare interview for Python and Django
 
 - ```__name__ == '__main__'```：假如你叫小明.py，在朋友眼中，你是小明 ```__name__ == '小明'```；在你自己眼中，你是你自己 ```__name__ == '__main__'```。
 
-- ```if __name__ == '__main__'``` 的意思是：當 .py 文件被直接運行時，```if __name__ == '__main__'``` 之下的程式碼將被運行；當 .py 文件以模組形式被導入時，```if __name__ == '__main__'``` 之下的程式碼不被運行。
+- ```if __name__ == '__main__':``` 的意思是：當 .py 文件被直接運行時，```if __name__ == '__main__'``` 之下的程式碼將被運行；當 .py 文件以模組形式被導入時，```if __name__ == '__main__'``` 之下的程式碼不被運行。
 
 - [See More (簡體網站)](https://blog.csdn.net/yjk13703623757/article/details/77918633)
 
