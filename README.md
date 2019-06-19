@@ -4,46 +4,46 @@ Prepare interview for Python and Django
 
 ## Python
 
-- Zen of Python
+### Zen of Python
 
-  - Beautiful is better than ugly.
+- Beautiful is better than ugly.
 
-Explicit is better than implicit.
+- Explicit is better than implicit.
 
-Simple is better than complex.
+- Simple is better than complex.
 
-Complex is better than complicated.
+- Complex is better than complicated.
 
-Flat is better than nested.
+- Flat is better than nested.
 
-Sparse is better than dense.
+- Sparse is better than dense.
 
-Readability counts.
+- Readability counts.
 
-Special cases aren't special enough to break the rules.
+- Special cases aren't special enough to break the rules.
 
-Although practicality beats purity.
+- Although practicality beats purity.
 
-Errors should never pass silently.
+- Errors should never pass silently.
 
-Unless explicitly silenced.
+- Unless explicitly silenced.
 
-In the face of ambiguity, refuse the temptation to guess.
+- In the face of ambiguity, refuse the temptation to guess.
 
-There should be one-- and preferably only one --obvious way to do it.
+- There should be one-- and preferably only one --obvious way to do it.
 
-Although that way may not be obvious at first unless you're Dutch.
+- Although that way may not be obvious at first unless you're Dutch.
 
-Now is better than never.
+- Now is better than never.
 
-Although never is often better than *right* now.
+- Although never is often better than *right* now.
 
-If the implementation is hard to explain, it's a bad idea.
+- If the implementation is hard to explain, it's a bad idea.
 
-If the implementation is easy to explain, it may be a good idea.
+- If the implementation is easy to explain, it may be a good idea.
 
-Namespaces are one honking great idea -- let's do more of those!
+- Namespaces are one honking great idea -- let's do more of those!
 
-- PEP8
+### PEP8
 
-- PyLint
+### PyLint
