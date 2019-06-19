@@ -7,13 +7,16 @@ Prepare interview for Python and Django
 ### Zen of Python
 
 - Beautiful is better than ugly.
-  Explicit is better than implicit.
-  - 美麗優於醜陋，明講好過暗諭。
+
 - Explicit is better than implicit.
+  
+  - 美麗優於醜陋，明講好過暗諭。
 
 - Simple is better than complex.
 
 - Complex is better than complicated.
+
+  - 簡潔者為上，複雜者次之，繁澀者為下。
 
 - Flat is better than nested.
 
