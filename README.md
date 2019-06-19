@@ -6,7 +6,7 @@ Prepare interview for Python and Django
 
 ### Zen of Python 
 
-- [中英翻譯版](http://wiki.python.org.tw/The%20Zen%20Of%20Python)
+- [Python 台灣使用者群組中英翻譯版](http://wiki.python.org.tw/The%20Zen%20Of%20Python)
 
 ### PEP8
 
