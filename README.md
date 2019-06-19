@@ -35,7 +35,7 @@ Prepare interview for Python and Django
 
 ### OOP (Object Oriented Programming)
 
-> 繼承 (Inheritance)
+- 繼承 (Inheritance)
 
 - 封裝 (Encapsulation)
 
