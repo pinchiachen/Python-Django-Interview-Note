@@ -4,7 +4,7 @@ Prepare interview for Python and Django
 
 ## Python
 
-### Tim Peters - Zen of Python 
+### Zen of Python - Tim Peters 
 
 - Beautiful is better than ugly.
 
