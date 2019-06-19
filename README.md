@@ -6,7 +6,7 @@ Prepare interview for Python and Django
 
 ### Zen of Python 
 
-- http://wiki.python.org.tw/The%20Zen%20Of%20Python
+- [abc](http://wiki.python.org.tw/The%20Zen%20Of%20Python)
 
 ### PEP8
 
