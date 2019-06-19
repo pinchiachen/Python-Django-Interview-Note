@@ -16,9 +16,9 @@ Prepare interview for Python and Django
 
 - 以 PEP8 為依據的 Python 代碼風格檢查工具。
 
-### 可變(Mutable) vs 不可變(Immutable)
+### 可變 (Mutable) vs 不可變 (Immutable)
 
-- Mutable：list、set、dict
+- Mutable：list、set、dict (Value is mutable, Key is immutable.)
 
 - Immutable：int、float、bool、str、tuple、unicode、frozenset
 
