@@ -18,12 +18,17 @@ Prepare interview for Python and Django
 
 ### 可變(Mutable) vs 不可變(Immutable)
 
+- Mutable：list、set、dict
+
+- Immutable：int、float、bool、str、tuple、unicode、frozenset
+
+
 ### List vs Tuple
 
 - Tuple 是不可修改的。
 
-- Tuple 不可修改當中元素值
+- Tuple 不可修改當中元素值。
 
-- Tuple 不可增加元素，但可以將兩個 Tuple 相加
+- Tuple 不可增加元素，但可以將兩個 Tuple 相加。
 
-- Tuple 不可刪除當中元素值，但可以直接用 del 刪除整個 Tuple。
+- Tuple 不可刪除當中元素，但可以直接用 del 刪除整個 Tuple。
