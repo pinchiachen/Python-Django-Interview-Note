@@ -46,7 +46,7 @@ Prepare interview for Python and Django
 
 - [Python，你到底是在__底線__什麼啦！](https://aji.tw/python%E4%BD%A0%E5%88%B0%E5%BA%95%E6%98%AF%E5%9C%A8__%E5%BA%95%E7%B7%9A__%E4%BB%80%E9%BA%BC%E5%95%A6/)
 
-### ```if __name__ == '__main__'```
+### ```if __name__ == '__main__':```
 
 - ```__name__ == '__main__'```：假如你叫小明.py，在朋友眼中，你是小明 ```__name__ == '小明'```；在你自己眼中，你是你自己 ```__name__ == '__main__'```。
 
