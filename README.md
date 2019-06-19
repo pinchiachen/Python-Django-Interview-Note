@@ -15,3 +15,9 @@ Prepare interview for Python and Django
 ### PyLint
 
 - 以 PEP8 為依據的 Python 代碼風格檢查工具
+
+### List vs Tuple
+
+- Tuple是不可修改的
+- Tuple不可修改當中元素值
+- Tuple不可刪除當中元素值，但可以直接用del刪除整個Tuple
