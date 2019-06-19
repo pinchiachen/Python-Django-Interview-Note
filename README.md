@@ -6,8 +6,7 @@ Prepare interview for Python and Django
 
 ### Zen of Python 
 
-- See
-http://wiki.python.org.tw/The%20Zen%20Of%20Python
+- See http://wiki.python.org.tw/The%20Zen%20Of%20Python
 
 - Beautiful is better than ugly.
 
