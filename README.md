@@ -18,7 +18,7 @@ Prepare interview for Python and Django
 
 ### 可變 (Mutable) vs 不可變 (Immutable)
 
-- Mutable：list、set、dict (Value is mutable, Key is immutable.)
+- Mutable：list、set、dict 
 
 - Immutable：int、float、bool、str、tuple、unicode、frozenset
 
@@ -32,3 +32,11 @@ Prepare interview for Python and Django
 - Tuple 不可增加元素，但可以將兩個 Tuple 相加。
 
 - Tuple 不可刪除當中元素，但可以直接用 del 刪除整個 Tuple。
+
+### OOP (Object Oriented Programming)
+
+> 繼承 (Inheritance)
+
+- 封裝 (Encapsulation)
+
+- 多型 (Polymorphism)
