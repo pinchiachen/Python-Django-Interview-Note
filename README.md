@@ -14,10 +14,16 @@ Prepare interview for Python and Django
 
 ### PyLint
 
-- 以 PEP8 為依據的 Python 代碼風格檢查工具
+- 以 PEP8 為依據的 Python 代碼風格檢查工具。
+
+### 可變(Mutable) vs 不可變(Immutable)
 
 ### List vs Tuple
 
-- Tuple是不可修改的
-- Tuple不可修改當中元素值
-- Tuple不可刪除當中元素值，但可以直接用del刪除整個Tuple
+- Tuple 是不可修改的。
+
+- Tuple 不可修改當中元素值
+
+- Tuple 不可增加元素，但可以將兩個 Tuple 相加
+
+- Tuple 不可刪除當中元素值，但可以直接用 del 刪除整個 Tuple。
