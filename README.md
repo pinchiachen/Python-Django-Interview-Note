@@ -9,14 +9,10 @@ Prepare interview for Python and Django
 - Beautiful is better than ugly.
 
 - Explicit is better than implicit.
-  
-  - 美麗優於醜陋，明講好過暗諭。
 
 - Simple is better than complex.
 
 - Complex is better than complicated.
-
-  - 簡潔者為上，複雜者次之，繁澀者為下。
 
 - Flat is better than nested.
 
@@ -47,6 +43,30 @@ Prepare interview for Python and Django
 - If the implementation is easy to explain, it may be a good idea.
 
 - Namespaces are one honking great idea -- let's do more of those!
+
+- 美麗優於醜陋，明講好過暗諭。
+
+- 簡潔者為上，複雜者次之，繁澀者為下。
+
+- 平舖善於層疊，勻散勝過稠密；以致輕鬆易讀。
+
+- 特例難免但不可打破原則，務求純淨卻不可不切實際。
+
+- 斷勿使錯誤靜靜流逝，除非有意如此。
+
+- 在模擬兩可之間，拒絕猜測的誘惑。
+
+- 總會有一種明確的寫法，最好也只有一種，
+
+- 但或須細想方可得。
+
+- 凡事雖應三思後行，但坐而言不如起而行。
+
+- 難以解釋的實作方式，必定是壞方法。
+
+- 容易解釋的實作方式，可能是好主意。
+
+- 命名空間讚，吾人多實用。
 
 ### PEP8
 
