@@ -45,3 +45,8 @@ Prepare interview for Python and Django
 ### ```foo_``` vs ```_foo``` vs ```__foo``` vs ```__foo__```
 
 - [Python，你到底是在__底線__什麼啦！](https://aji.tw/python%E4%BD%A0%E5%88%B0%E5%BA%95%E6%98%AF%E5%9C%A8__%E5%BA%95%E7%B7%9A__%E4%BB%80%E9%BA%BC%E5%95%A6/)
+
+### ```if __name__ == '__main__'```
+- ```if __name__ == '__main__'```的意思是：當.py文件被直接運行時，```if __name__ == '__main__'```之下的程式碼將被運行；當.py文件以模組形式被導入時，```if __name__ == '__main__'```之下的程式碼不被運行。
+
+
