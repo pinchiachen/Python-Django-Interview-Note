@@ -18,7 +18,7 @@ Prepare interview for Python and Django
 
 - Python 用途非常廣泛——網絡應用、自動化、科學建模、大數據應用等等。它也常被用作膠水語言 (glue language)，幫助其他語言和組件改善運行狀況。
 
-- Python 讓困難的事情變得容易，因此工程師可以專注於算法和數據結構的設計，而不用處理底層的細節。
+[Ref](http://codingpy.com/article/essential-python-interview-questions/)
 
 ### Zen of Python 
 
