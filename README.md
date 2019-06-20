@@ -34,6 +34,8 @@ Prepare interview for Python and Django
 
 ### 可變 (Mutable) vs 不可變 (Immutable)
 
+- [什麼是可變，什麼是不可變](https://zhuanlan.zhihu.com/p/34395671)
+
 - Mutable：list、set、dict 
 
 - Immutable：int、float、bool、str、tuple、unicode、frozenset
