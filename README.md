@@ -62,7 +62,7 @@ Prepare interview for Python and Django
 > 多型 (Polymorphism)
 
 - 不支援以下用法
-```
+```Python
 def calculator(a):
     do_something
         
