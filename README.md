@@ -61,11 +61,13 @@ Prepare interview for Python and Django
 
 > 多型 (Polymorphism)
 
-- ```def calculator(a):
-         do_something
-         與
-     def calculator(a, b):
-         do_something```
+- ```
+def calculator(a):
+    do_something
+        
+def calculator(a, b):
+    do_something
+    ```
          
 
 ### ```foo_``` vs ```_foo``` vs ```__foo``` vs ```__foo__```
