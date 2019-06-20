@@ -54,11 +54,18 @@ Prepare interview for Python and Django
 ### OOP (Object Oriented Programming)
 
 > 繼承 (Inheritance)
+
 - 支援多重繼承，當子類別繼承 (inheritance) 超過一個來源的時候，會以寫在最左邊的父類別優先繼承。
 
 > 封裝 (Encapsulation)
 
 > 多型 (Polymorphism)
+
+- ```def calculator(a):
+         do_something```與
+  ```def calculator(a, b):
+         do_something```
+         
 
 ### ```foo_``` vs ```_foo``` vs ```__foo``` vs ```__foo__```
 
