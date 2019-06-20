@@ -61,7 +61,7 @@ Prepare interview for Python and Django
 
 > 多型 (Polymorphism)
 
-- 沒有以下用法
+- 不支援以下用法
 ```
 def calculator(a):
     do_something
