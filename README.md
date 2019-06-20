@@ -6,9 +6,9 @@ Prepare interview for Python and Django
 
 ### What is Python?
 
-- Python 是一種解釋型語言。這就是說，與 C 語言和 C 的衍生語言不同，Python 程式碼在運行之前不需要編譯。其他解釋型語言還包括 PHP 和 Ruby。
+- Python 是一種解釋型語言，與 C 語言和 C 的衍生語言不同，Python 程式碼在運行之前不需要編譯。其他解釋型語言還包括 PHP 和 Ruby。
 
-- Python 是動態類型語言，也就是你在宣告變數時，不需要說明變數的類型。
+- Python 是動態類型語言，也就是在宣告變數時，不需要說明變數的類型。
 
 - Python 非常適合物件導向 (OOP)，因為它支持通過組合 (composition) 與繼承 (inheritance) 的方式定義類別 (class)。 Python 中也沒有存取規格符 (access specifier，類似 C++ 中的 public 和 private)。
 
