@@ -87,8 +87,7 @@ def calculator(a, b):
 
 ### ```*args``` and ```**kwargs```
 
-> 
-```Python
+> ```Python
 *args
 ```
 
