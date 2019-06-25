@@ -100,9 +100,9 @@ def calculator(a, b):
 
 ### Coroutine
 
-<br />
+
 * * *
-<br />
+
 
 ## Django
 
