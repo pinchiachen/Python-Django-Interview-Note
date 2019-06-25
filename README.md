@@ -101,6 +101,8 @@ def calculator(a, b):
 
 ### Coroutine
 
+
+
 ## Django
 
 ### What is Django?
@@ -146,5 +148,21 @@ def calculator(a, b):
 ### Http vs Https
 
 ### Web Method
+
+<br />
+<br />
+<br />
+
+## DevOps
+
+### Gitflow
+
+### CI / CD
+
+### Jenkins
+
+### Container vs Virtual Machine vs Virtualenv
+
+### 
 
 
