@@ -80,7 +80,7 @@ def calculator(a, b):
 
 - [See More](https://blog.csdn.net/yjk13703623757/article/details/77918633)
 
-- [`if __name__ == '__main__' ` 實例](https://blog.castman.net/%E6%95%99%E5%AD%B8/2018/01/27/python-name-main.html)
+- [實例](https://blog.castman.net/%E6%95%99%E5%AD%B8/2018/01/27/python-name-main.html)
 
 ### `*args` and `**kwargs`
 
