@@ -6,7 +6,7 @@ Prepare interview for Python and Django.
 
 ### What is Python?
 
-- Python 是一種解釋型語言，與 C 語言和 C 的衍生語言不同，Python 程式碼在運行之前不需要編譯。其他解釋型語言還包括 PHP 和 Ruby。
+- Python 是一種直譯語言，與 C 語言和 C 的衍生語言不同，Python 程式碼在運行之前不需要編譯。其他直譯語言還包括 JavaScript、PHP 和 Ruby。
 
 - Python 是動態類型語言，也就是在宣告變數時，不需要說明變數的類型。
 
@@ -15,8 +15,6 @@ Prepare interview for Python and Django.
 - 在 Python 中，函數是第一類對象 (first-class objects)。這指的是它們可以被指定給變數，函數既能返回函數類型，也可以接受函數作為輸入。類別 (class) 也是第一類對象。
 
 - Python 程式碼編寫快，但是運行速度通常比編譯語言慢。不過 Python 允許加入基於 C 語言編寫的擴展，因此能夠優化程式碼。 numpy 就是一個很好的例子，它的運行速度非常快，因其很多算術運算並非通過 Python 所實現。
-
-- Python 用途非常廣泛——網絡應用、自動化、科學建模、大數據應用等等。它也常被用作膠水語言 (glue language)，幫助其他語言和組件改善運行狀況。
 
 - [Ref](http://codingpy.com/article/essential-python-interview-questions/)
 
@@ -78,7 +76,7 @@ def calculator(a, b):
 
 - `__name__ == '__main__'` ：假如你叫小明.py，在朋友眼中，你是小明 `__name__ == '小明'`；在你自己眼中，你是你自己 `__name__ == '__main__'`。
 
-- `if __name__ == '__main__'` 的意思是：當 .py 文件被直接運行時，`if __name__ == '__main__'` 之下的程式碼將被運行；當 .py 文件以模組形式被導入時，`if __name__ == '__main__'` 之下的程式碼不被運行。
+- `if __name__ == '__main__'` 的意思是：當 .py 文件被直接運行時，此時你是你自己 `__name__ == '__main__'`，所以 `if __name__ == '__main__'` 之下的程式碼將被運行；當 .py 文件以模組形式被導入時，你是小明 `__name__ == '小明'`，所以 `if __name__ == '__main__'` 之下的程式碼不被運行。
 
 - [See More](https://blog.csdn.net/yjk13703623757/article/details/77918633)
 
