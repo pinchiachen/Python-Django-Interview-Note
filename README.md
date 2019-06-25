@@ -106,6 +106,10 @@ def calculator(a, b):
 
 ### Django 生命週期
 
+### RESTful API
+
+[Ref](http://www.ruanyifeng.com/blog/2018/10/restful-api-best-practices.html)
+
 ### MTV
 
 ### Model - SQL vs NoSQL
