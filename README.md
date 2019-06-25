@@ -176,14 +176,9 @@ def calculator(a, b):
 
 ### NoSQL - Sharding
 
+### Firebase
+
 ### OAuth
 
 ### GraphQL
-
-### Firebase
-
-
-
-
-
 
