@@ -91,4 +91,60 @@ def calculator(a, b):
 
 > `**kwargs`
 
+### Copy
+
+### Static Type vs Dynamic Type
+
+### Pass by Value vs Pass by Reference
+
+### GIL (Global Interpreter Lock)
+
+### Coroutine
+
+## Django
+
+### What is Django?
+
+### Django 生命週期
+
+### MTV
+
+### Model
+
+### Template - Tags vs Filters
+
+### View - FBV vs CBV
+
+### Wsgi
+
+### Nginx
+
+### Apache
+
+### Middleware
+
+### ORM
+
+### QuerySet
+
+### Request vs Response
+
+### Aggregate vs Annotate
+
+### Select_Related vs Prefetch_Related
+
+### Celery
+
+### Redis
+
+### Session
+
+### Cache
+
+### Cookie
+
+### Http vs Https
+
+### Web Method
+
 
