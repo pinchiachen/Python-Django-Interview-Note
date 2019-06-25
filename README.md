@@ -100,9 +100,7 @@ def calculator(a, b):
 
 ### Coroutine
 
-
 * * *
-
 
 ## Django
 
@@ -112,7 +110,7 @@ def calculator(a, b):
 
 ### MTV
 
-### Model
+### Model - SQL vs NoSQL
 
 ### Template - Tags vs Filters
 
@@ -150,8 +148,7 @@ def calculator(a, b):
 
 ### Web Method
 
-<br />
-<br />
+* * *
 
 ## DevOps
 
@@ -161,8 +158,34 @@ def calculator(a, b):
 
 ### Jenkins
 
+### Unit Test
+
+### TDD vs RDD
+
 ### Container vs Virtual Machine vs Virtualenv
 
-### 
+### Supervisor
+
+### Puppet
+
+### AWS
+
+### GCP (Google Cloud Platform)
+
+### Cluster
+
+### Master / Slave
+
+### NoSQL - Sharding
+
+### OAuth
+
+### GraphQL
+
+### Firebase
+
+
+
+
 
 
