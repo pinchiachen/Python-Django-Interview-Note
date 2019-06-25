@@ -69,7 +69,6 @@ def calculator(a):
 def calculator(a, b):
     do_something
 ```
-         
 
 ### `foo_` vs `_foo` vs `__foo` vs `__foo__`
 
@@ -101,7 +100,8 @@ def calculator(a, b):
 
 ### Coroutine
 
-
+<br />
+<br />
 
 ## Django
 
@@ -149,7 +149,6 @@ def calculator(a, b):
 
 ### Web Method
 
-<br />
 <br />
 <br />
 
