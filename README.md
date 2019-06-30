@@ -110,13 +110,13 @@ def calculator(a, b):
 
 ### Django 生命週期
 
-1. 當使用者在瀏覽器中輸入 url 時，瀏覽器會生成請求頭和請求體發給伺服器端，請求頭和請求體中會包含瀏覽器的動作 (action)，這個動作通常為 get 或者post，體現在 url 之中。
+- 當使用者在瀏覽器中輸入 url 時，瀏覽器會生成請求頭和請求體發給伺服器端，請求頭和請求體中會包含瀏覽器的動作 (action)，這個動作通常為 get 或者post，體現在 url 之中。
 
-2. url 經過 Django 中的 wsgi，再經過 Django 的中間件，最後 url 到過路由映射表，在路由中一條一條進行匹配，一旦其中一條匹配成功就執行對應的視圖 (view) 函數，後面的路由就不再繼續匹配了。
+- url 經過 Django 中的 wsgi，再經過 Django 的中間件，最後 url 到過路由映射表，在路由中一條一條進行匹配，一旦其中一條匹配成功就執行對應的視圖 (view) 函數，後面的路由就不再繼續匹配了。
 
-3. 視圖函數根據用戶端的請求查詢相應的數據，傳回給 Django，然後 Django 把用戶端想要的數據做為一個字符串傳回給用戶端。
+- 視圖函數根據用戶端的請求查詢相應的數據，傳回給 Django，然後 Django 把用戶端想要的數據做為一個字符串傳回給用戶端。
 
-4. 用戶端瀏覽器接收到傳回的數據，經過渲染 (render) 後顯示給用戶。
+- 用戶端瀏覽器接收到傳回的數據，經過渲染 (render) 後顯示給用戶。
 
 ### RESTful API
 
@@ -145,6 +145,23 @@ def calculator(a, b):
 ### Apache
 
 ### Middleware
+
+- 在 Django 中，中間件其實就是一個類別，在請求到來和結束後，Django 會根據自己的規則在合適的時機執行中間件中相應的方法。
+
+- 在 Django 的 settings 模組中，有一個 MIDDLEWARE_CLASSES 變量，其中每一個元素就是一個中間件。
+
+- ```Python
+# 方法在请求到来的时候调用
+process_request(self,request)
+# 在本次将要执行的View函数被调用前调用本函数
+process_view(self, request, callback, callback_args, callback_kwargs)
+# 需使用render()方法才会执行process_template_response
+process_template_response(self,request,response)
+# View函数在抛出异常时该函数被调用，得到的exception参数是实际上抛出的异常实例。通过此方法可以进行很好的错误控制，提供友好的用户界面。
+process_exception(self, request, exception)
+# 在执行完View函数准备将响应发到客户端前被执行
+process_response(self, request, response)
+‵``
 
 ### ORM
 
