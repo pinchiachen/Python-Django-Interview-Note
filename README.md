@@ -110,6 +110,8 @@ def calculator(a, b):
 
 ### Django 生命週期
 
+1. 123
+
 ### RESTful API
 
 [Ref](http://www.ruanyifeng.com/blog/2018/10/restful-api-best-practices.html)
@@ -125,8 +127,11 @@ def calculator(a, b):
 ### Wsgi
 
 - 描述 web server 如何與 web application 通訊的一種規範，WSGI 協議主要包括 server 和 application 兩部分
+    
     - WSGI server 負責從客戶端接收請求，將 request 轉傳給 application，將 application 傳回的 response 傳回給客戶端。
+    
     - WSGI application 接收由 server 轉傳的 request，處理請求，並將處理結果傳回給 server。
+
 - Application 中可以包括多個棧式的中間件 (middlewares)，這些中間件需要同時實現 server 與 application，因此可以在 WSGI server與 WSGI applicatio 之間起調節作用：對 server 來說，中間件扮演 application，對 application 來說，中間件扮演 server。
 
 ### Nginx
