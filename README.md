@@ -150,16 +150,21 @@ def calculator(a, b):
 
 - 在 Django 的 settings 模組中，有一個 MIDDLEWARE_CLASSES 變量，其中每一個元素就是一個中間件。
 
-- ```Python
-# 方法在请求到来的时候调用
+- 常見用法 
+```Python
+# 方法在請求到來的時候調用
 process_request(self,request)
-# 在本次将要执行的View函数被调用前调用本函数
+
+# 在本次將要執行的View函數被調用前調用本函數
 process_view(self, request, callback, callback_args, callback_kwargs)
-# 需使用render()方法才会执行process_template_response
+
+# 需使用render()方法才會執行process_template_response
 process_template_response(self,request,response)
-# View函数在抛出异常时该函数被调用，得到的exception参数是实际上抛出的异常实例。通过此方法可以进行很好的错误控制，提供友好的用户界面。
+
+# View函數在拋出異常時該函數被調用，得到的exception參數是實際上拋出的異常實例。通過此方法可以進行很好的錯誤控制，提供友好的用戶界面。
 process_exception(self, request, exception)
-# 在执行完View函数准备将响应发到客户端前被执行
+
+# 在執行完View函數準備將響應發到客戶端前被執行
 process_response(self, request, response)
 ‵``
 
