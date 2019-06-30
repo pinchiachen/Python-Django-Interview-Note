@@ -84,7 +84,10 @@ def calculator(a, b):
 
 ### `*args` and `**kwargs`
 
-> `*args`
+> 
+```Python
+*args
+```
 
 - 可變的位置參數 (Positional Arguments)，表示任何多個無名參數，在你不知道參數個數時使用，其本質為 Tuple，可以跟 `**kwargs` 同時使用，但 `*args` 必須保持在前。
 
