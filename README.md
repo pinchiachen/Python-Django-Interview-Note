@@ -124,10 +124,10 @@ def calculator(a, b):
 
 ### Wsgi
 
-- 描述web server如何與web application通信的一種規範，WSGI協議主要包括server和application兩部分
-    - WSGI server負責從客戶端接收請求，將request轉發給application，將application返回的response返回給客戶端；
-    - WSGI application接收由server轉發的request，處理請求，並將處理結果返回給server。
-- application中可以包括多個棧式的中間件(middlewares)，這些中間件需要同時實現server與application，因此可以在WSGI服務器與WSGI應用之間起調節作用：對服務器來說，中間件扮演應用程序，對應用程序來說，中間件扮演服務器。
+- 描述 web server 如何與 web application 通訊的一種規範，WSGI 協議主要包括 server 和 application 兩部分
+    - WSGI server 負責從客戶端接收請求，將 request 轉傳給 application，將 application 傳回的 response 傳回給客戶端。
+    - WSGI application 接收由 server 轉傳的 request，處理請求，並將處理結果傳回給 server。
+- Application 中可以包括多個棧式的中間件 (middlewares)，這些中間件需要同時實現 server 與 application，因此可以在 WSGI server與 WSGI applicatio 之間起調節作用：對 server 來說，中間件扮演 application，對 application 來說，中間件扮演 server。
 
 ### Nginx
 
