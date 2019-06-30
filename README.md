@@ -78,9 +78,9 @@ def calculator(a, b):
 
 - `if __name__ == '__main__'` 的意思是：當 .py 文件被直接運行時，此時你是你自己 `__name__ == '__main__'`，所以 `if __name__ == '__main__'` 之下的程式碼將被運行；當 .py 文件以模組形式被導入時，此時你是小明 `__name__ == '小明'`，所以 `if __name__ == '__main__'` 之下的程式碼不被運行。
 
-- [See More](https://blog.csdn.net/yjk13703623757/article/details/77918633)
+- [Ref](https://blog.csdn.net/yjk13703623757/article/details/77918633)
 
-- [實例](https://blog.castman.net/%E6%95%99%E5%AD%B8/2018/01/27/python-name-main.html)
+- [Example](https://blog.castman.net/%E6%95%99%E5%AD%B8/2018/01/27/python-name-main.html)
 
 ### `*args` and `**kwargs`
 
