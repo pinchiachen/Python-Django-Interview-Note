@@ -98,7 +98,15 @@ def calculator(a, b):
 
 ### Pass by Value vs Pass by Reference
 
+- 「Pass by value」意味著這個函數參數的 value 被 copy 進內存中的另一個位置，當在函數中訪問或修改這個變數時，只有這個 copy 複製品被操作了，而原始的 value 沒有被接觸到，如果想要函數傳回一個單值，使用「Pass by value」。
+
+- 「Pass by reference」是指變數的儲存地址（一個內存位置的指針）被傳遞到函數中，如果想要函數傳回兩個以上單值，使用「Pass by reference」。
+
+- Python 使用的不是以上兩者，Python 使用的是「Pass by object reference」。
+
 ### GIL (Global Interpreter Lock)
+
+- [Ref](http://cenalulu.github.io/python/gil-in-python/)
 
 ### Coroutine
 
@@ -155,16 +163,16 @@ def calculator(a, b):
 # 方法在請求到來的時候調用
 process_request(self,request)
 
-# 在本次將要執行的View函數被調用前調用本函數
+# 在本次將要執行的 View 函數被調用前調用本函數
 process_view(self, request, callback, callback_args, callback_kwargs)
 
-# 需使用render()方法才會執行process_template_response
+# 需使用 render() 方法才會執行 process_template_response
 process_template_response(self,request,response)
 
-# View函數在拋出異常時該函數被調用，得到的exception參數是實際上拋出的異常實例。通過此方法可以進行很好的錯誤控制，提供友好的用戶界面。
+# View 函數在拋出異常時該函數被調用，得到的 exception 參數是實際上拋出的異常實例。通過此方法可以進行很好的錯誤控制，提供友好的用戶界面。
 process_exception(self, request, exception)
 
-# 在執行完View函數準備將響應發到客戶端前被執行
+# 在執行完 View 函數準備將響應發到客戶端前被執行
 process_response(self, request, response)
 ```
 
