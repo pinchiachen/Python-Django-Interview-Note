@@ -128,7 +128,7 @@ def calculator(a, b):
 
 ### RESTful API
 
-[Ref](http://www.ruanyifeng.com/blog/2018/10/restful-api-best-practices.html)
+- [Ref](http://www.ruanyifeng.com/blog/2018/10/restful-api-best-practices.html)
 
 ### MTV
 
@@ -156,7 +156,7 @@ def calculator(a, b):
 
 - 在 Django 中，中間件其實就是一個類別，在請求到來和結束後，Django 會根據自己的規則在合適的時機執行中間件中相應的方法。
 
-- 在 Django 的 settings 模組中，有一個 MIDDLEWARE_CLASSES 變量，其中每一個元素就是一個中間件。
+- 在 Django 的 settings 模組中，有一個 MIDDLEWARE_CLASSES 變數，其中每一個元素就是一個中間件。
 
 - 常見用法 
 ```Python
