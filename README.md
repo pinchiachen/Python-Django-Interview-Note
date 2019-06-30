@@ -136,7 +136,13 @@ def calculator(a, b):
 
 ### Template - Tags vs Filters
 
-### View - FBV vs CBV
+### View - FBV (function base views) vs CBV (class base views)
+
+- 使用 fbv 模式，在url匹配成功之後會直接執行對應的視圖函數；使用 cbv 模式，在url匹配成功之後會找到視圖函數中對應的類別，然後這個類別回到請求頭中找到對應的 Request Method。
+
+- 用戶發送 url 請求，Django 會依次遍歷路由映射表中的所有記錄，一旦路由映射表其中的一條匹配成功了，就執行視圖函數中對應的函數名，這是 fbv 的執行流程。
+
+- 當伺服器端使用 cbv 模式的時候，用戶發給伺服器端的請求包含 url 和 method，這兩個訊息都是字符串類型。伺服器端通過路由映射表匹配成功後會自動去找 dispatch 方法，然後 Django 會通過 dispatch 反射的方式找到類別中對應的方法並執行。類別中的方法執行完畢之後，會把用戶端想要的數據傳回給 dispatch 方法，由 dispatch 方法把數據傳回至用戶端。
 
 ### Wsgi
 
@@ -176,11 +182,17 @@ process_exception(self, request, exception)
 process_response(self, request, response)
 ```
 
-### ORM
-
 ### QuerySet
 
+- 從資料庫中查詢出來的結果一般是一個集合，這個集合叫做 QuerySet。
+
+### ORM
+
 ### Request vs Response
+
+- 當請求一個頁面時，Django 創建一個 HttpRequest 對象，該對象包含 request 的元數據，然後 Django 調用相應的 view 函數，HttpRequest 對象自動傳遞給該 view 函數作為第一個參數，每一個 view 負責傳回一個 HttpResponse 對象。
+
+- requests的元數據包括 path、get、put 等方法以及 cookies、user 等等。
 
 ### Aggregate vs Annotate
 
