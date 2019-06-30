@@ -86,7 +86,11 @@ def calculator(a, b):
 
 > `*args`
 
+- 可變的位置參數 (Positional Arguments)，表示任何多個無名參數，在你不知道參數個數時使用，其本質為 Tuple，可以跟 `**kwargs` 同時使用，但 `*args` 必須保持在前。
+
 > `**kwargs`
+
+- 可變的關鍵字參數 (Keyword Argument)，表示任何多個 Key-Value 參數，其本質為 Dict。
 
 ### Copy
 
@@ -119,6 +123,11 @@ def calculator(a, b):
 ### View - FBV vs CBV
 
 ### Wsgi
+
+- 描述web server如何與web application通信的一種規範，WSGI協議主要包括server和application兩部分
+    - WSGI server負責從客戶端接收請求，將request轉發給application，將application返回的response返回給客戶端；
+    - WSGI application接收由server轉發的request，處理請求，並將處理結果返回給server。
+- application中可以包括多個棧式的中間件(middlewares)，這些中間件需要同時實現server與application，因此可以在WSGI服務器與WSGI應用之間起調節作用：對服務器來說，中間件扮演應用程序，對應用程序來說，中間件扮演服務器。
 
 ### Nginx
 
