@@ -134,9 +134,19 @@ def calculator(a, b):
 
 ### RESTful API
 
+- REST：Resource Representational State Transfer
+
 - [Ref](http://www.ruanyifeng.com/blog/2018/10/restful-api-best-practices.html)
 
-### MTV
+### Django MTV vs MVC
+
+- Model：Data Access Logic
+
+- Template：Presentation Logic
+
+- View：Business Logic
+
+- [Ref](https://mropengate.blogspot.com/2015/08/mvcdjangomtv.html)
 
 ### Model - SQL vs NoSQL
 
