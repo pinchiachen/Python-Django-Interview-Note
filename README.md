@@ -101,9 +101,7 @@ def calculator(a, b):
 ```Python
 import copy
 
-
 #copy.copy()
-
 >>> a = [1, 2, [3, 4]]  
 >>> d = copy.copy(a) 
 >>> id(a) == id(d)
@@ -114,9 +112,7 @@ True
 >>> d             
 [1, 2, [3333, 4]]
 
-
 #copy.deepcopy()
-
 >>> e = copy.deepcopy(a) 
 >>> a[2][0] = 33 
 >>> e
