@@ -104,7 +104,7 @@ import copy
 
 #copy.copy()
 
->>> a=[1, 2, [3, 4]]  
+>>> a = [1, 2, [3, 4]]  
 >>> d = copy.copy(a) 
 >>> id(a) == id(d)
 False
@@ -118,11 +118,13 @@ True
 #copy.deepcopy()
 
 >>> e = copy.deepcopy(a) 
->>> a[2][0] = 333 
+>>> a[2][0] = 33 
 >>> e
 [1, 2, [3333, 4]] 
 >>>
 ```
+
+- [Ref](https://morvanzhou.github.io/tutorials/python-basic/basic/13-04-copy/)
 
 ### Static Type vs Dynamic Type
 
