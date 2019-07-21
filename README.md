@@ -244,6 +244,8 @@ process_response(self, request, response)
 
 ### Container vs Virtual Machine vs Virtualenv
 
+### Docker
+
 ### Supervisor
 
 ### Puppet
