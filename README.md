@@ -110,6 +110,8 @@ def calculator(a, b):
 
 ### GIL (Global Interpreter Lock)
 
+> (In CPython, the global interpreter lock, or GIL, is a mutex that prevents multiple native threads from executing Python bytecodes at once. This lock is necessary mainly because CPython’s memory management is not thread-safe. (However, since the GIL exists, other features have grown to depend on the guarantees that it enforces.)
+
 - [Ref](http://cenalulu.github.io/python/gil-in-python/)
 
 ### Coroutine
