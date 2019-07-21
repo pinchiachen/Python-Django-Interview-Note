@@ -20,9 +20,13 @@ Prepare interview for Python and Django.
 
 ### Zen of Python 
 
+- Tim Peters 所提出的 PEP 20: The Zen of Python 是撰寫 Python 程式的精神指標。
+
 - [Ref](http://wiki.python.org.tw/The%20Zen%20Of%20Python)
 
 ### PEP8
+
+- PEP8 是 Python 社群共通的風格指南，一開始是 Python 之父 Guido van Rossum 自己的撰碼風格，慢慢後來演變至今，目的在於幫助開發者寫出可讀性高且風格一致的程式。
 
 - [Ref](https://cflin.com/wordpress/603/pep8-python%E7%B7%A8%E7%A2%BC%E8%A6%8F%E7%AF%84%E6%89%8B%E5%86%8A)
 
