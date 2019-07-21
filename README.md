@@ -70,13 +70,13 @@ def calculator(a, b):
 
 ### `foo_` vs `_foo` vs `__foo` vs `__foo__`
 
-- [Python，你到底是在__底線__什麼啦！](https://aji.tw/python%E4%BD%A0%E5%88%B0%E5%BA%95%E6%98%AF%E5%9C%A8__%E5%BA%95%E7%B7%9A__%E4%BB%80%E9%BA%BC%E5%95%A6/)
+- [Ref](https://aji.tw/python%E4%BD%A0%E5%88%B0%E5%BA%95%E6%98%AF%E5%9C%A8__%E5%BA%95%E7%B7%9A__%E4%BB%80%E9%BA%BC%E5%95%A6/)
 
 ### `if __name__ == '__main__'`
 
 - `__name__ == '__main__'` ：假如你叫小明.py，在朋友眼中，你是小明 `__name__ == '小明'`；在你自己眼中，你是你自己 `__name__ == '__main__'`。
 
-- `if __name__ == '__main__'` 的意思是：當 .py 文件被直接運行時，此時你是你自己 `__name__ == '__main__'`，所以 `if __name__ == '__main__'` 之下的程式碼將被運行；當 .py 文件以模組形式被導入時，此時你是小明 `__name__ == '小明'`，所以 `if __name__ == '__main__'` 之下的程式碼不被運行。
+- `if __name__ == '__main__'` 的用法是：當 .py 文件被直接運行時，此時你是你自己 `__name__ == '__main__'`，所以 `if __name__ == '__main__'` 之下的程式碼將被運行；當 .py 文件以模組形式被導入時，此時你是小明 `__name__ == '小明'`，所以 `if __name__ == '__main__'` 之下的程式碼不被運行。
 
 - [Ref](https://blog.csdn.net/yjk13703623757/article/details/77918633)
 
@@ -192,7 +192,7 @@ process_response(self, request, response)
 
 - 當請求一個頁面時，Django 創建一個 HttpRequest 對象，該對象包含 request 的元數據，然後 Django 調用相應的 view 函數，HttpRequest 對象自動傳遞給該 view 函數作為第一個參數，每一個 view 負責傳回一個 HttpResponse 對象。
 
-- requests的元數據包括 path、get、put 等方法以及 cookies、user 等等。
+- requests 的元數據包括 path、get、put 等方法以及 cookies、user 等等。
 
 ### Aggregate vs Annotate
 
