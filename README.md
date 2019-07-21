@@ -96,7 +96,33 @@ def calculator(a, b):
 
 - 可變的關鍵字參數 (Keyword Argument)，表示任何多個 Key-Value 參數，其本質為 Dict。
 
-### Copy
+### Copy vs DeepCopy
+
+```Python
+import copy
+
+
+#copy.copy()
+
+>>> a=[1, 2, [3, 4]]  
+>>> d = copy.copy(a) 
+>>> id(a) == id(d)
+False
+>>> id(a[2]) == id(d[2])
+True
+>>> a[2][0] = 3333  
+>>> d             
+[1, 2, [3333, 4]]
+
+
+#copy.deepcopy()
+
+>>> e = copy.deepcopy(a) 
+>>> a[2][0] = 333 
+>>> e
+[1, 2, [3333, 4]] 
+>>>
+```
 
 ### Static Type vs Dynamic Type
 
