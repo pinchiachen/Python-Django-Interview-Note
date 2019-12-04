@@ -35,18 +35,18 @@ Prepare interview for Python and Django.
 - Tuple 不可刪除當中元素，但可以直接用 del 刪除整個 Tuple。
 
 ### OOP (Object Oriented Programming)
-> 繼承 (Inheritance)
-	- 支援多重繼承，當子類別繼承 (inheritance) 超過一個來源的時候，會以寫在最左邊的父類別優先繼承。
-> 封裝 (Encapsulation)
-> 多型 (Polymorphism)
-	- 不支援以下用法
-```Python
-def calculator(a):
-    do_something
-        
-def calculator(a, b):
-    do_something
-```
+- 繼承 (Inheritance)
+  - 支援多重繼承，當子類別繼承 (inheritance) 超過一個來源的時候，會以寫在最左邊的父類別優先繼承。
+- 封裝 (Encapsulation)
+- 多型 (Polymorphism)
+  - 不支援以下用法
+    ```Python
+    def calculator(a):
+        do_something
+            
+    def calculator(a, b):
+        do_something
+    ```
 
 ### `foo_` vs `_foo` vs `__foo` vs `__foo__`
 - [Python，你到底是在__底線__什麼啦！](https://aji.tw/python%E4%BD%A0%E5%88%B0%E5%BA%95%E6%98%AF%E5%9C%A8__%E5%BA%95%E7%B7%9A__%E4%BB%80%E9%BA%BC%E5%95%A6/)
@@ -58,10 +58,10 @@ def calculator(a, b):
 - [Example](https://blog.castman.net/%E6%95%99%E5%AD%B8/2018/01/27/python-name-main.html)
 
 ### `*args` and `**kwargs`
-> `*args`
-	- 可變的位置參數 (Positional Arguments)，表示任何多個無名參數，在你不知道參數個數時使用，其本質為 Tuple，可以跟 `**kwargs` 同時使用，但 `*args` 必須保持在前。
-> `**kwargs`
-	- 可變的關鍵字參數 (Keyword Argument)，表示任何多個 Key-Value 參數，其本質為 Dict。
+- `*args`
+  - 可變的位置參數 (Positional Arguments)，表示任何多個無名參數，在你不知道參數個數時使用，其本質為 Tuple，可以跟 `**kwargs` 同時使用，但 `*args` 必須保持在前。
+- `**kwargs`
+  - 可變的關鍵字參數 (Keyword Argument)，表示任何多個 Key-Value 參數，其本質為 Dict。
 
 ### Copy vs DeepCopy
 ```Python
@@ -140,22 +140,22 @@ True
 - 在 Django 中，中間件其實就是一個類別，在請求到來和結束後，Django 會根據自己的規則在合適的時機執行中間件中相應的方法。
 - 在 Django 的 settings 模組中，有一個 MIDDLEWARE_CLASSES 變數，其中每一個元素就是一個中間件。
 - 常見用法 
-```
-# 方法在請求到來的時候調用
-process_request(self,request)
+    ```
+    # 方法在請求到來的時候調用
+    process_request(self,request)
 
-# 在本次將要執行的 View 函數被調用前調用本函數
-process_view(self, request, callback, callback_args, callback_kwargs)
+    # 在本次將要執行的 View 函數被調用前調用本函數
+    process_view(self, request, callback, callback_args, callback_kwargs)
 
-# 需使用 render() 方法才會執行 process_template_response
-process_template_response(self,request,response)
+    # 需使用 render() 方法才會執行 process_template_response
+    process_template_response(self,request,response)
 
-# View 函數在拋出異常時該函數被調用，得到的 exception 參數是實際上拋出的異常實例。通過此方法可以進行很好的錯誤控制，提供友好的用戶界面。
-process_exception(self, request, exception)
+    # View 函數在拋出異常時該函數被調用，得到的 exception 參數是實際上拋出的異常實例。通過此方法可以進行很好的錯誤控制，提供友好的用戶界面。
+    process_exception(self, request, exception)
 
-# 在執行完 View 函數準備將響應發到客戶端前被執行
-process_response(self, request, response)
-```
+    # 在執行完 View 函數準備將響應發到客戶端前被執行
+    process_response(self, request, response)
+    ```
 
 ### QuerySet
 - 從資料庫中查詢出來的結果一般是一個集合，這個集合叫做 QuerySet。
