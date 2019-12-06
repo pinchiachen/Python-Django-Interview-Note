@@ -23,6 +23,36 @@ Prepare interview for Python and Django.
 ### PyLint
 - 以 PEP8 為依據的 Python 代碼風格檢查工具。
 
+### 函式特性
+
+```python
+def extend_list(val,l=[]):
+    l.append(val)
+    return l
+
+if __name__ == "__main__":
+    extend_list(1)
+    extend_list(2)
+    extend_list(3)
+```
+
+Q：以上這段程式碼輸出分別為 `[1] [1,2] [1,2,3]`，不是 `[1] [2] [3]`，為何？
+
+A：Python 在函式被定義時所有的參數值就已經產生，因此不會每一次呼叫時又產生一次。這意味著函式維持了並且不斷使用同樣的 list 物件，直到提供了其他的 list 物件。要讓輸出為 `[1] [2] [3]` 其中一個改法為以下：
+
+```python
+def extend_list(val,l=None):
+    if not l:
+        l = []
+    l.append(val)
+    return l
+
+if __name__ == "__main__":
+    extend_list(1)
+    extend_list(2)
+    extend_list(3)
+```
+
 ### 可變 (Mutable) vs 不可變 (Immutable)
 - Mutable：list、set、dict 
 - Immutable：int、float、bool、str、tuple、unicode、frozenset
