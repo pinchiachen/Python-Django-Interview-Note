@@ -38,7 +38,7 @@ if __name__ == "__main__":
 
 Q：以上這段程式碼輸出分別為 `[1] [1,2] [1,2,3]`，不是 `[1] [2] [3]`，為何？
 
-A：Python 在函式被定義時所有的參數值就已經產生，因此不會每一次呼叫時又產生一次。這意味著函式維持了並且不斷使用同樣的 list 物件，直到提供了其他的 list 物件。要讓輸出為 `[1] [2] [3]` 其中一個改法為以下：
+A：Python 的函式也是物件，因此預設參數也算是函式物件的屬性之一，Python 在函式被定義時所有的參數值就已經產生，因此不會每一次呼叫時又產生一次。這意味著函式維持了並且不斷使用同樣的 list 物件，直到提供了其他的 list 物件。要讓輸出為 `[1] [2] [3]` 其中一個改法為以下：
 
 ```python
 def extend_list(val,l=None):
@@ -220,6 +220,7 @@ True
 	- 非狀態性通訊 (Stateless protocol) 
 - [RESTful API Design by TritonHo](https://github.com/TritonHo/slides/blob/master/Taipei%202019-06%20talk/RESTful%20API%20Design-tw-2.2.pdf)
 - [Ref2](http://www.ruanyifeng.com/blog/2018/10/restful-api-best-practices.html)
+- [Ref3](https://www.footmark.info/programming-language/design/restful-webapi-design-guide/?fbclid=IwAR085qFKEPOdgmZVhn_TWQYBBaDZWatFxbY-b4BI0BcGhYdeKSP-ehCsx08)
 
 ### Cookie
 - 存在的目的：解決 HTTP 的 stateless 特性導致無法及時更新雙方狀態的問題
